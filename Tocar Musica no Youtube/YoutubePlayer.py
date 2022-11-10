@@ -4,8 +4,7 @@ from tkinter import ttk
 
 def abrirMusica ():
     inp = inputtxt.get(1.0, "end-1c")
-    musica = inp
-    kit.playonyt(musica)
+    kit.playonyt(inp)
 
 
 janela = Tk()
